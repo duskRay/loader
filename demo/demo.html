@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>DEMO1</title>
+        <link rel="stylesheet" href="css/loader.css">
+    </head>
+    <body>
+        <div style="margin:20px auto;width:400px;height:200px;background-color:#29d200">
+            <div class="loader"></div>
+        </div>
+        
+        <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/loader.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".loader").loaderOn();
+                setTimeout(function(){
+                    // $(".loader").loaderOff();
+                }, 2000);
+            });
+        </script>
+
+    </body>
+</html>
+
+
+
